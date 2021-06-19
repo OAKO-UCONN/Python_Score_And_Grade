@@ -1,9 +1,13 @@
 def compute_grade(score):
-    if score>1:
-        pass
-        return grade
+    if score > 1:
+        return 'It is not possible.'
+    if score>0.9:
+        grade = 'A'
+    elif score > 0.8:
+        grade = 'B'
     else:
-        if score<1 and score <0.9
-
+        grade = 'F'
+    return grade
+    
 res = compute_grade(0.5)
     
